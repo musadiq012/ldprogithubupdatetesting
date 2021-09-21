@@ -3,8 +3,8 @@
 * Plugin Name: Check Update from github test
 * Plugin URI: https://www.yourwebsiteurl.com/
 * Description: This is the very first plugin I ever created.
-* Version: 2.1
-* Author: Adnan Sami 
+* Version: 2.2
+* Author: Musadiq Mehmood 
 * Author URI: http://yourwebsiteurl.com/
 **/
 
