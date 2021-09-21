@@ -8,7 +8,7 @@
 * Author URI: http://yourwebsiteurl.com/
 **/
 
-
+ob_start();
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/musadiq012/ldprogithubupdatetesting/',
@@ -22,7 +22,7 @@ $myUpdateChecker->setBranch('master');
 //Optional: If you're using a private repository, specify the access token like this:
 //$myUpdateChecker->setAuthentication('your-token-here');
 
-
+ob_clean();
 
 function add_my_stylesheet1() {
     wp_enqueue_style( 'myStyles', plugins_url( __FILE__ ) . '/styles.css' );
