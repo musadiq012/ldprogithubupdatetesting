@@ -11,7 +11,7 @@
 ob_start();
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/musadiq012/ldprogithubupdatetesting/',
+    'https://github.com/musadiq012/ldprogithubupdatetesting',
     __FILE__,
     'ldprogithubupdatetesting'
 );
