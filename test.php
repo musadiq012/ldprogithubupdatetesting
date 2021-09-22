@@ -8,8 +8,6 @@
 * Author URI: http://yourwebsiteurl.com/
 **/
 
-//this is test
-
 ob_start();
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
