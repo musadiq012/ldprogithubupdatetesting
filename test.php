@@ -3,10 +3,12 @@
 * Plugin Name: Check Update from github test
 * Plugin URI: https://www.yourwebsiteurl.com/
 * Description: This is the very first plugin I ever created.
-* Version: 6.9
-* Author: Adnan Sami
+* Version: 7.0
+* Author: Awais Raza
 * Author URI: http://yourwebsiteurl.com/
 **/
+
+//this is test
 
 ob_start();
 require 'plugin-update-checker/plugin-update-checker.php';
